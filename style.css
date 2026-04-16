@@ -511,3 +511,18 @@ footer a:hover {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* Secure Payment Badges */
+.secure-payment-badges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.secure-payment-badges img {
+    height: 30px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
